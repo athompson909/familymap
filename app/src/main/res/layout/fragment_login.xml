@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:orientation="vertical"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:paddingLeft="16dp"
+             android:paddingRight="16dp"
+             android:paddingTop="16dp"
+             android:paddingBottom="16dp"
+             tools:context="layout.LoginFragment">
+
+
+   <!-- <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:rowCount="4"
+        android:columnCount="2"
+        android:verticalSpacing="0dp"
+        android:horizontalSpacing="0dp"
+        android:useDefaultMargins="false"
+        android:layout_gravity="center_horizontal|top">
+
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="User Name: "
+            android:id="@+id/usernameTextView"
+            android:layout_margin="0dp"
+            android:padding="0dp" />
+
+        <EditText
+            android:inputType="text"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/usernameEditText"
+            android:layout_weight="1"
+            android:layout_margin="0dp"
+            android:padding="0dp"/>
+
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Password: "
+            android:id="@+id/passwordTextView"
+            android:layout_margin="0dp"
+            android:padding="0dp" />
+
+        <EditText
+            android:inputType="text"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/passwordEditText"
+            android:layout_weight="1"
+            android:layout_margin="0dp"
+            android:padding="0dp" />
+
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Server Host: "
+            android:id="@+id/serverHostTextView"
+            android:layout_margin="0dp"
+            android:padding="0dp" />
+
+        <EditText
+            android:inputType="text"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/serverHostEditText"
+            android:layout_weight="1"
+            android:layout_margin="0dp"
+            android:padding="0dp" />
+
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Server Port: "
+            android:id="@+id/serverPortTextView"
+            android:layout_margin="0dp"
+            android:padding="0dp" />
+
+        <EditText
+            android:inputType="text"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/serverPortEditText"
+            android:layout_weight="1"
+            android:layout_margin="0dp"
+            android:padding="0dp" />
+
+    </GridLayout> -->
+    <EditText
+        android:id="@+id/usernameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="username"
+        android:imeActionId="@+id/login"
+        android:imeActionLabel="textUsername"
+        android:inputType="text"
+        android:maxLines="1"
+        android:singleLine="true"/>
+
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="password"
+        android:imeActionId="@+id/login"
+        android:imeActionLabel="password"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:singleLine="true"/>
+
+    <EditText
+        android:id="@+id/serverHostEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="server host"
+        android:imeActionId="@+id/login"
+        android:imeActionLabel="textServerHost"
+        android:inputType="text"
+        android:maxLines="1"
+        android:singleLine="true"/>
+
+    <EditText
+        android:id="@+id/serverPortEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="server port"
+        android:imeActionId="@+id/login"
+        android:imeActionLabel="textServerPort"
+        android:inputType="text"
+        android:maxLines="1"
+        android:singleLine="true"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SIGN IN TO FAMILY MAP"
+        android:id="@+id/button"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>

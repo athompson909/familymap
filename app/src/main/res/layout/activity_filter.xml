@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView style="@style/Padding16dp"
+                  android:id="@+id/baptismEventsTextView"
+                  android:paddingTop="8dp"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textAppearance="?android:attr/textAppearanceLarge"
+                  android:text="Baptism Events"
+                  android:maxLines="1"/>
+        <TextView style="@style/Padding16dp"
+                  android:paddingBottom="8dp"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_below="@id/baptismEventsTextView"
+                  android:textAppearance="?android:attr/textAppearanceSmall"
+                  android:text="FILTER BY BAPTISM EVENTS"
+                  android:maxLines="1"/>
+
+        <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/baptismEventsSwitch"
+            android:layout_gravity="right"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:checked="true"/>
+    </RelativeLayout>
+    <View style="@style/Divider"
+          android:background="@color/colorSlightlyDarkerGrey"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView style="@style/Padding16dp"
+                  android:id="@+id/birthEventsTextView"
+                  android:paddingTop="8dp"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textAppearance="?android:attr/textAppearanceLarge"
+                  android:text="Birth Events"
+                  android:maxLines="1"/>
+        <TextView style="@style/Padding16dp"
+                  android:paddingBottom="8dp"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_below="@id/birthEventsTextView"
+                  android:textAppearance="?android:attr/textAppearanceSmall"
+                  android:text="FILTER BY BIRTH EVENTS"
+                  android:maxLines="1"/>
+
+        <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/birthEventsSwitch"
+            android:layout_gravity="right"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:checked="true"/>
+    </RelativeLayout>
+    <View style="@style/Divider"
+          android:background="@color/colorSlightlyDarkerGrey"/>
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView style="@style/Padding16dp"
+                  android:id="@+id/censusEventsTextView"
+                  android:paddingTop="8dp"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textAppearance="?android:attr/textAppearanceLarge"
+                  android:text="Census Events"
+                  android:maxLines="1"/>
+        <TextView style="@style/Padding16dp"
+                  android:paddingBottom="8dp"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_below="@id/censusEventsTextView"
+                  android:textAppearance="?android:attr/textAppearanceSmall"
+                  android:text="FILTER BY CENSUS EVENTS"
+                  android:maxLines="1"/>
+
+        <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/censusEventsSwitch"
+            android:layout_gravity="right"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:checked="true"/>
+    </RelativeLayout>
+    <View style="@style/Divider"
+          android:background="@color/colorSlightlyDarkerGrey"/>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView style="@style/Padding16dp"
+                  android:id="@+id/christeningEventsTextView"
+                  android:paddingTop="8dp"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textAppearance="?android:attr/textAppearanceLarge"
+                  android:text="Christening Events"
+                  android:maxLines="1"/>
+        <TextView style="@style/Padding16dp"
+                  android:paddingBottom="8dp"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_below="@id/christeningEventsTextView"
+                  android:textAppearance="?android:attr/textAppearanceSmall"
+                  android:text="FILTER BY CHRISTENING EVENTS"
+                  android:maxLines="1"/>
+
+        <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/christeningEventsSwitch"
+            android:layout_gravity="right"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:checked="true"/>
+    </RelativeLayout>
+    <View style="@style/Divider"
+          android:background="@color/colorSlightlyDarkerGrey"/>
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView style="@style/Padding16dp"
+                  android:id="@+id/deathEventsTextView"
+                  android:paddingTop="8dp"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textAppearance="?android:attr/textAppearanceLarge"
+                  android:text="Death Events"
+                  android:maxLines="1"/>
+        <TextView style="@style/Padding16dp"
+                  android:paddingBottom="8dp"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_below="@id/deathEventsTextView"
+                  android:textAppearance="?android:attr/textAppearanceSmall"
+                  android:text="FILTER BY DEATH EVENTS"
+                  android:maxLines="1"/>
+
+        <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/deathEventsSwitch"
+            android:layout_gravity="right"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:checked="true"/>
+    </RelativeLayout>
+    <View style="@style/Divider"
+          android:background="@color/colorSlightlyDarkerGrey"/>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView style="@style/Padding16dp"
+                  android:id="@+id/marriageEventsTextView"
+                  android:paddingTop="8dp"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textAppearance="?android:attr/textAppearanceLarge"
+                  android:text="Marriage Events"
+                  android:maxLines="1"/>
+        <TextView style="@style/Padding16dp"
+                  android:paddingBottom="8dp"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_below="@id/marriageEventsTextView"
+                  android:textAppearance="?android:attr/textAppearanceSmall"
+                  android:text="FILTER BY MARRIAGE EVENTS"
+                  android:maxLines="1"/>
+
+        <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/marriageEventsSwitch"
+            android:layout_gravity="right"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:checked="true"/>
+    </RelativeLayout>
+    <View style="@style/Divider"
+          android:background="@color/colorSlightlyDarkerGrey"/>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView style="@style/Padding16dp"
+                  android:id="@+id/fathersSideTextView"
+                  android:paddingTop="8dp"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textAppearance="?android:attr/textAppearanceLarge"
+                  android:text="Father's Side"
+                  android:maxLines="1"/>
+        <TextView style="@style/Padding16dp"
+                  android:paddingBottom="8dp"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_below="@id/fathersSideTextView"
+                  android:textAppearance="?android:attr/textAppearanceSmall"
+                  android:text="FILTER BY FATHER'S SIDE OF FAMILY"
+                  android:maxLines="1"/>
+
+        <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/fathersSideSwitch"
+            android:layout_gravity="right"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:checked="true"/>
+    </RelativeLayout>
+    <View style="@style/Divider"
+          android:background="@color/colorSlightlyDarkerGrey"/>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView style="@style/Padding16dp"
+                  android:id="@+id/mothersSideTextView"
+                  android:paddingTop="8dp"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textAppearance="?android:attr/textAppearanceLarge"
+                  android:text="Mother's Side"
+                  android:maxLines="1"/>
+        <TextView style="@style/Padding16dp"
+                  android:paddingBottom="8dp"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_below="@id/mothersSideTextView"
+                  android:textAppearance="?android:attr/textAppearanceSmall"
+                  android:text="FILTER BY MOTHER'S SIDE OF FAMILY"
+                  android:maxLines="1"/>
+
+        <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/mothersSideSwitch"
+            android:layout_gravity="right"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:checked="true"/>
+    </RelativeLayout>
+    <View style="@style/Divider"
+          android:background="@color/colorSlightlyDarkerGrey"/>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView style="@style/Padding16dp"
+                  android:id="@+id/maleEventsTextView"
+                  android:paddingTop="8dp"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textAppearance="?android:attr/textAppearanceLarge"
+                  android:text="Male Events"
+                  android:maxLines="1"/>
+        <TextView style="@style/Padding16dp"
+                  android:paddingBottom="8dp"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_below="@id/maleEventsTextView"
+                  android:textAppearance="?android:attr/textAppearanceSmall"
+                  android:text="FILTER EVENTS BASED ON GENDER"
+                  android:maxLines="1"/>
+
+        <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/maleEventsSwitch"
+            android:layout_gravity="right"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:checked="true"/>
+    </RelativeLayout>
+    <View style="@style/Divider"
+          android:background="@color/colorSlightlyDarkerGrey"/>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView style="@style/Padding16dp"
+                  android:id="@+id/femaleEventsTextView"
+                  android:paddingTop="8dp"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textAppearance="?android:attr/textAppearanceLarge"
+                  android:text="Female Events"
+                  android:maxLines="1"/>
+        <TextView style="@style/Padding16dp"
+                  android:paddingBottom="8dp"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_below="@id/femaleEventsTextView"
+                  android:textAppearance="?android:attr/textAppearanceSmall"
+                  android:text="FILTER EVENTS BASED ON GENDER"
+                  android:maxLines="1"/>
+
+        <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/femaleEventsSwitch"
+            android:layout_gravity="right"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:checked="true"/>
+    </RelativeLayout>
+    <View style="@style/Divider"
+          android:background="@color/colorSlightlyDarkerGrey"/>
+
+
+</LinearLayout>

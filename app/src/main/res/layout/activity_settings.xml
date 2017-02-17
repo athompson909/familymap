@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:paddingTop="12dp"
+              android:layout_alignParentTop="true"
+              android:layout_alignParentLeft="true"
+              android:layout_alignParentStart="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView style="@style/Padding16dp"
+                  android:id="@+id/lsLinesText"
+                  android:paddingTop="8dp"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textAppearance="?android:attr/textAppearanceLarge"
+                  android:text="Life Story Lines"
+                  android:maxLines="1"/>
+            <TextView style="@style/Padding16dp"
+                  android:paddingBottom="8dp"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_below="@id/lsLinesText"
+                  android:textAppearance="?android:attr/textAppearanceSmall"
+                  android:text="SHOW LIFE STORY LINES"
+                  android:maxLines="1"/>
+            <Spinner
+                android:id="@+id/lslSpinner"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_alignParentTop="true"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/lslSwitch"
+                android:layout_toStartOf="@+id/lslSwitch"
+                android:paddingRight="6dp"
+                android:paddingEnd="6dp">
+            </Spinner>
+            <ToggleButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/lslSwitch"
+                android:layout_gravity="right"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:checked="true"/>
+        </RelativeLayout>
+
+
+        <View style="@style/Divider"
+              android:background="@color/colorSlightlyDarkerGrey"/>
+        <!--android:text="User Name: "-->
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView style="@style/Padding16dp"
+                  android:id="@+id/ftlinesText"
+                  android:paddingTop="8dp"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textAppearance="?android:attr/textAppearanceLarge"
+                  android:text="Family Tree Lines"
+                  android:maxLines="1"/>
+        <TextView style="@style/Padding16dp"
+                  android:paddingBottom="8dp"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_below="@id/ftlinesText"
+                  android:textAppearance="?android:attr/textAppearanceSmall"
+                  android:singleLine="true"
+                  android:text="SHOW TREE LINES"
+                  android:maxLines="1"
+                  android:id="@+id/stlText"/>
+
+
+        <Spinner
+            android:id="@+id/ftlSpinner"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/ftlSwitch"
+            android:layout_toStartOf="@+id/ftlSwitch"
+            android:paddingRight="6dp"
+            android:paddingEnd="6dp">
+        </Spinner>
+        <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ftlSwitch"
+            android:layout_gravity="right"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:checked="true"/>
+    </RelativeLayout>
+
+    <View style="@style/Divider"
+          android:background="@color/colorSlightlyDarkerGrey"/>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView style="@style/Padding16dp"
+              android:id="@+id/SpouseLinesText"
+              android:paddingTop="8dp"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textAppearance="?android:attr/textAppearanceLarge"
+              android:text="Spouse Lines"
+              android:maxLines="1"/>
+        <TextView style="@style/Padding16dp"
+              android:paddingBottom="8dp"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_below="@id/SpouseLinesText"
+              android:textAppearance="?android:attr/textAppearanceSmall"
+              android:singleLine="true"
+              android:text="SHOW SPOUSE LINES"
+              android:maxLines="1"
+              android:id="@+id/sslText"/>
+
+
+        <Spinner
+            android:id="@+id/slSpinner"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/slSwitch"
+            android:layout_toStartOf="@+id/slSwitch"
+            android:paddingRight="6dp"
+            android:paddingEnd="6dp">
+        </Spinner>
+        <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/slSwitch"
+            android:layout_gravity="right"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:checked="true"/>
+    </RelativeLayout>
+
+
+
+
+        <View style="@style/Divider"
+              android:background="@color/colorSlightlyDarkerGrey"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView style="@style/Padding16dp"
+              android:id="@+id/mapTypeText"
+              android:paddingTop="8dp"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:textAppearance="?android:attr/textAppearanceLarge"
+              android:text="Map Type"
+              android:maxLines="1"/>
+        <TextView style="@style/Padding16dp"
+              android:paddingBottom="8dp"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_below="@id/mapTypeText"
+              android:textAppearance="?android:attr/textAppearanceSmall"
+              android:singleLine="true"
+              android:text="BACKGROUND DISPLAY ON MAP"
+              android:maxLines="1"/>
+        <Spinner
+            android:id="@+id/mapTypeSpinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:paddingRight="6dp"
+            android:paddingEnd="6dp">
+        </Spinner>
+    </RelativeLayout>
+
+
+        <View style="@style/Divider"
+              android:background="@color/colorSlightlyDarkerGrey"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/resyncDataSquare">
+        <TextView style="@style/Padding16dp"
+            android:paddingTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Re-sync Data"
+            android:maxLines="1"
+            android:id="@+id/rsTextView"/>
+        <TextView style="@style/Padding16dp"
+              android:layout_below="@id/rsTextView"
+              android:paddingBottom="8dp"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:textAppearance="?android:attr/textAppearanceSmall"
+              android:singleLine="true"
+              android:text="FROM FAMILYMAP SERVICE"
+              android:maxLines="1"/>
+    </RelativeLayout>
+        <View style="@style/Divider"
+              android:background="@color/colorSlightlyDarkerGrey"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/logoutSquare">
+        <TextView style="@style/Padding16dp"
+              android:paddingTop="8dp"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:textAppearance="?android:attr/textAppearanceLarge"
+              android:text="Logout"
+              android:maxLines="1"
+              android:id="@+id/logoutTextView"/>
+        <TextView style="@style/Padding16dp"
+              android:paddingBottom="8dp"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:textAppearance="?android:attr/textAppearanceSmall"
+              android:singleLine="true"
+              android:text="RETURNS TO LOGIN SCREEN"
+              android:maxLines="1"
+              android:layout_below="@id/logoutTextView"/>
+    </RelativeLayout>
+    <View style="@style/Divider"
+          android:background="@color/colorSlightlyDarkerGrey"/>
+
+</LinearLayout>

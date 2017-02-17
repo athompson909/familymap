@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    tools:context="base.PersonActivity"
+    android:background="@color/colorLightGrey">
+
+    <RelativeLayout
+        android:paddingTop="12dp"
+        android:id="@+id/currentPersonInfo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView style="@style/Padding16dp"
+                  android:paddingTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/firstNameTextView"
+            android:singleLine="true"
+            android:text="first name"
+            android:maxLines="1"
+            />
+        <TextView style="@style/Padding16dp"
+                  android:paddingBottom="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/firstNameUnderline"
+            android:text="FIRST NAME"
+            android:maxLines="1"
+            android:layout_below="@+id/firstNameTextView"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"/>
+        <View style="@style/Divider"
+              android:layout_below="@+id/firstNameUnderline"
+              android:layout_alignParentRight="true"
+              android:layout_alignParentEnd="true"
+              android:background="@color/colorSlightlyDarkerGrey"/>
+        <!--android:text="User Name: "-->
+
+        <TextView style="@style/Padding16dp"
+                  android:paddingTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/lastNameTextView"
+            android:text="last name"
+            android:maxLines="1"
+            android:layout_below="@+id/firstNameUnderline"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"/>
+        <TextView style="@style/Padding16dp"
+                  android:paddingBottom="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/lastNameUnderline"
+            android:singleLine="true"
+            android:text="LAST NAME"
+            android:maxLines="1"
+            android:layout_below="@+id/lastNameTextView"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"/>
+        <View style="@style/Divider"
+              android:layout_below="@+id/lastNameUnderline"
+              android:layout_alignParentLeft="true"
+              android:layout_alignParentStart="true"
+              android:background="@color/colorSlightlyDarkerGrey"/>
+
+        <TextView style="@style/Padding16dp"
+                  android:paddingTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/genderTextView"
+            android:text="gender"
+            android:maxLines="1"
+            android:layout_below="@+id/lastNameUnderline"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"/>
+        <TextView style="@style/Padding16dp"
+                  android:paddingBottom="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/genderUnderline"
+            android:singleLine="true"
+            android:text="GENDER"
+            android:maxLines="1"
+            android:layout_below="@+id/genderTextView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"/>
+
+        <View style="@style/Divider"
+              android:layout_below="@id/genderUnderline"
+              android:layout_alignParentLeft="true"
+              android:layout_alignParentStart="true"
+              android:background="@color/colorBlack"
+              android:id="@+id/view"/>
+
+        <ExpandableListView
+            android:id="@+id/expandableListView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/view"
+            android:divider="@color/colorSlightlyDarkerGrey"
+            android:dividerHeight="1dp"
+            android:indicatorLeft="?android:attr/expandableListPreferredItemIndicatorLeft">
+
+        </ExpandableListView>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
